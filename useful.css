@@ -1,0 +1,45 @@
+.flex{
+  display: flex;
+}
+
+.footer .share a:hover {
+  background: #eb4d4b;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.footer .credit {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #666;
+  font-size: 2rem;
+}
+
+.items-center{
+align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+  }
+  .semibold{
+    font-weight: bolder;
+  }
+  .uppercase{
+    text-transform: uppercase;
+  }
+ .mx-2{
+    margin-left:12px;
+    margin-right:12px ;
+  }
+  .my-2{
+    margin: 12px 0;
+  }
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
